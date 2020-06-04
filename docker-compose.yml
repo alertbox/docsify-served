@@ -6,4 +6,5 @@ services:
     image: alertbox/whale-docsify-serve:lts-alpine
     build: 
       context: .
+      dockerfile: lts-alpine/Dockerfile
     working_dir: /var/www
