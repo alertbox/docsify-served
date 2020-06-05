@@ -28,10 +28,10 @@ There are many ways in which you can participate in the project, for example:
 
 If you are interested in fixing issues and contributing directly to the source code, please see the document [How to Contribute](CONTRIBUTING.md), which covers the following:
 
-- [Prerequisites]()
-- [How to build and run from source]()
-- [Finding an issue to work on]()
-- [Contributing to platforms]()
+- [Prerequisites](CONTRIBUTING.md)
+- [How to build and run from source](CONTRIBUTING.md)
+- [Finding an issue to work on](CONTRIBUTING.md)
+- [Contributing to platforms](CONTRIBUTING.md)
 
 ## Feedback
 
