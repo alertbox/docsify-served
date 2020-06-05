@@ -1,4 +1,5 @@
 FROM node:lts-alpine
+
 LABEL authors="@kosalanuwan" \
       url="https://github.com/alertbox/docker-docsify-serve" \
       documentation="https://github.com/alertbox/docker-docsify-serve" \

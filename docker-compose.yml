@@ -3,9 +3,12 @@ version: "3.8"
 services: 
 
   whale-docsify-serve:
-    image: alertbox/whale-docsify-serve:lts-alpine
+    image: loclhost:3000/whale-docsify-serve
+    build:
+      context: .
+      dockerfile: ./lts-alpine/Dockerfile
     working_dir: /var/www
     ports: 
       - 3000:3000/tcp
     volumes: 
-      - ${PWD}:/var/www
+      - ${PWD}/docs:/var/www
