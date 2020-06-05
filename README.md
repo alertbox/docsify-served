@@ -7,7 +7,7 @@ This repository (`whale-docsify-serve`) is where we (`@alertbox`) develop the [D
 
 
 <p align="center">
-  <img alt="The whale docsify serve in action" src="https://user-images.githubusercontent.com/958227/83905226-f2d53b80-a77e-11ea-9aac-d26d6b4677e9.png">
+  <img alt="The whale docsify serve in action" src="https://user-images.githubusercontent.com/958227/83905226-f2d53b80-a77e-11ea-9aac-d26d6b4677e9.png" width="1024">
 </p>
 
 > The whale docsify serve in action
