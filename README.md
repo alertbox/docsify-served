@@ -2,6 +2,10 @@
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/whale-docsify-serve)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/alertbox/whale-docsify-serve?sort=semver)
+![Docker Pulls](https://img.shields.io/docker/pulls/alertbox/whale-docsify-serve)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/whale-docsify-serve/latest)
+![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/whale-docsify-serve)
 
 This repository (`whale-docsify-serve`) is where we (`@alertbox`) develop the [Docker Images](https://hub.docker.com/r/alertbox/whale-docsify-serve) to `docsify serve` our repository documentation and static websites for public and internal use. This source code is available for everyone under the standard [MIT License](LICENSE).
 
