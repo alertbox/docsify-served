@@ -5,7 +5,11 @@
 
 This repository (`whale-docsify-serve`) is where we (`@alertbox`) develop the [Docker Images](https://hub.docker.com/r/alertbox/whale-docsify-serve) to `docsify serve` our repository documentation and static websites for public and internal use. This source code is available for everyone under the standard [MIT License](LICENSE).
 
-The image goes here
+
+<p align="center">
+  <img alt="The whale docsify serve in action" src="https://user-images.githubusercontent.com/958227/83905226-f2d53b80-a77e-11ea-9aac-d26d6b4677e9.png">
+</p>
+
 > The whale docsify serve in action
 
 Whale Docsify Serve combines the simplicity of Docsify's magical documentation site generation what we need for the edit and preview cycle. The source code is updated monthly with features and fixes. You can use on Windows, macOS, and Linux on [Docker Hub](https://hub.docker.com/r/alertbox/whale-docsify-serve).
