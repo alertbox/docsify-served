@@ -27,18 +27,18 @@ There are many ways in which you can participate in the project, for example:
 
 If you are interested in fixing issues and contributing directly to the source code, please see the document [How to Contribute](CONTRIBUTING.md), which covers the following:
 
-- [Prerequisites](CONTRIBUTING.md)
-- [How to build and run from source](CONTRIBUTING.md)
-- [Finding an issue to work on](CONTRIBUTING.md)
-- [Contributing to platforms](CONTRIBUTING.md)
+- [Prerequisites](CONTRIBUTING.md#prerequisites)
+- [How to build and run from source](CONTRIBUTING.md#build-and-run)
+- [Finding an issue to work on](https://github.com/alertbox/whale-docsify-served/issues)
+- [Contributing to platforms](CONTRIBUTING.md#publishing)
 
 ## Feedback
 
 - Ask a question on [Stack Overflow]()
-- [Request a new feature]()
-- Upvote [popular feature requests]()
-- [Report an issue]()
-- Follow [@alertbox]() and let us know what you think!
+- [Request a new feature](https://github.com/alertbox/whale-docsify-served/issues/new?assignees=&labels=&template=feature_request.md&title=)
+- Upvote [popular feature requests](https://github.com/alertbox/whale-docsify-served/issues)
+- [Report an issue](https://github.com/alertbox/whale-docsify-served/issues/new?assignees=&labels=&template=bug_report.md&title=)
+- Follow [@alertbox](https://twitter.com/alertboxinc) and let us know what you think!
 
 ## Related Projects
 
