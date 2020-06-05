@@ -2,9 +2,9 @@
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-- Maintained by [the Alertbox Docker Team](https://github.com/alertbox/whale-docsify-serve/)
-- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://github.com/alertbox/whale-docsify-serve/issues/), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
-- Where to file issues [alertbox/whale-docsify-serve/issues/](https://github.com/alertbox/whale-docsify-serve/issues/)
+- Maintained by [the Alertbox Docker Team](https://github.com/alertbox/whale-docsify-served/)
+- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://github.com/alertbox/whale-docsify-served/issues/), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
+- Where to file issues [alertbox/whale-docsify-served/issues/](https://github.com/alertbox/whale-docsify-served/issues/)
 
 # What is Docsify Server?
 ![logo](https://raw.githubusercontent.com/docsifyjs/docsify-cli/master/media/icon.svg?sanitize=true)
@@ -15,7 +15,7 @@ For additional questions and feedback, please visit the [Docsify Lobby](https://
 
 # Quick Start with Docker
 
-Here is how to get a single node Docsify Server cluster running on Docker containers:
+Here is how to get a single node Docsify Served cluster running on Docker containers:
 
 Step - 1: Visit [alertbox/whale-docsify-docs](https://github.com/alertbox/whale-docsify-docs/generate) on GitHub to use a template to start the Documentation setup.
 
@@ -24,7 +24,7 @@ Step - 2: Next, spin up a Terminal and clone your GitHub Repository. For example
 $ git clone https://github.com/kosalanuwan/hello-world
 ```
 
-Step - 3: Then, run Docsify Server docker container
+Step - 3: Then, run Docsify Served docker container
 ```bash
 $ cd hello-world && docker-compose up -d
 ```
@@ -32,9 +32,9 @@ Visit [localhost:3000](https://localhost:3030) on your favorite browser.
 
 # Requirements and Best Practices
 
-The Docsify Server containers on Docker Hub are based on Linux AMD64 Architecture.
+The Docsify Served containers on Docker Hub are based on Linux AMD64 Architecture.
 
-Docsify Server Requirements: For minimum container requirements, you can follow [alertbox/whale-docsify-docs/](https://github.com/alertbox/whale-docsify-docs/).
+Docsify Served Requirements: For minimum container requirements, you can follow [alertbox/whale-docsify-docs/](https://github.com/alertbox/whale-docsify-docs/).
 
 ## Best Practices
 

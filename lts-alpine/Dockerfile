@@ -1,13 +1,13 @@
 FROM node:lts-alpine
 
 LABEL authors="@kosalanuwan" \
-      url="https://github.com/alertbox/docker-docsify-serve" \
-      documentation="https://github.com/alertbox/docker-docsify-serve" \
-      source="https://github.com/alertbox/docker-docsify-serve" \
+      url="https://github.com/alertbox/whale-docsify-served" \
+      documentation="https://github.com/alertbox/whale-docsify-served" \
+      source="https://github.com/alertbox/whale-docsify-served" \
       version="1.0.0" \
       vendor="@alertbox" \
       licenses="(MIT)" \
-      title="Docsify Serve for GitHub Pages" \
+      title="Docsify Server for GitHub Pages" \
       description="Docsify Serve could do map the source code to run without having been to install node modules and docsify \
       on the host machine. Quite useful for developers."
 

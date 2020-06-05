@@ -5,9 +5,9 @@ Welcome! And thank you for your interest in contributing to our project. We use 
 There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved.
 
 - Ask a question on [Stack Overflow]()
-- [Submit bugs and feature requests](https://github.com/alertbox/whale-docsify-serve/issues), and help us verify as they are checked in
+- [Submit bugs and feature requests](https://github.com/alertbox/whale-docsify-served/issues), and help us verify as they are checked in
 - Upvote [popular feature requests]()
-- Review [source code changes](https://github.com/alertbox/whale-docsify-serve/pulls)
+- Review [source code changes](https://github.com/alertbox/whale-docsify-served/pulls)
 - Review the [documentation](docs) and make pull requests for anything from typos to new content
 
 ## Contributing to Source Code
@@ -28,7 +28,7 @@ You'll need following tools:
 
 ### Build and Run
 
-If you want to understand how Whale Docsify Serve works, or debug an issue, you'll want to get the source, build it, and run it locally.
+If you want to understand how Whale Docsify Served works, or debug an issue, you'll want to get the source, build it, and run it locally.
 
 #### Step 1 Getting the source code
 
@@ -36,16 +36,16 @@ First fork the repository so that you can make a Pull Request. Then clone your f
 
 ```bash
 #!/bin/bash
-git clone https://github.com/<your-github-account>/whale-docsify-serve
+git clone https://github.com/<your-github-account>/whale-docsify-served
 ```
 
 Occasionally you would want to merge changes the upstream repository (the official code repo) with your fork.
 
 ```bash
 #!/bin/bash
-cd whale-docsify-serve
+cd whale-docsify-served
 git checkout master
-git pull https://github.com/alertbox/whale-docsify-serve master
+git pull https://github.com/alertbox/whale-docsify-served master
 ```
 
 #### Step 2 Build and run from the source
@@ -54,15 +54,15 @@ First, you want to ensure Docker Desktop is running on your machine. Then build 
 
 ```bash
 #!/bin/bash
-cd whale-docsify-serve
-docker build --rm=true -f ./lts-alpine/Dockerfile -t localhost:3000/whale-docsify-serve .
+cd whale-docsify-served
+docker build --rm=true -f ./lts-alpine/Dockerfile -t localhost:3000/docsify-served .
 ```
 
 To spawn the image you built with changes, you use the `docs` folder, which is in our source code.
 
 ```bash
 #!/bin/bash
-$ docker run -dp 3000:3000 -v `pwd`/docs:/var/www localhost:3000/whale-docsify-serve
+docker run -dp 3000:3000 -v `pwd`/docs:/var/www localhost:3000/docsify-served
 ```
 
 To test the changes, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
@@ -84,8 +84,8 @@ These `tags` are available: `latest | preview | lts-alpine | docsify-cli-latest`
 The `tag-and-push.sh` script for each `Dockerfile` contains followings:
 
 - Supported `platforms` and `docsify-cli` versions
-- Tag the `localhost:3000/whale-docsify-serve`
-- Push to `alertbox/whale-docsify-serve` repository on Docker Hub.
+- Tag the `localhost:3000/docsify-served`
+- Push to `alertbox/docsify-served` repository on Docker Hub.
 
 Each newly created `Dockerfile` must have it's own `bash` script with supported `tags`.
 

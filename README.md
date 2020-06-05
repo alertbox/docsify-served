@@ -1,29 +1,29 @@
-# Whale Docsify Serve
+# Whale Docsify Served
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/whale-docsify-serve)
-![Docker Image Version (latest semver)](https://img.shields.io/docker/v/alertbox/whale-docsify-serve?sort=semver)
-![Docker Pulls](https://img.shields.io/docker/pulls/alertbox/whale-docsify-serve)
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/whale-docsify-serve/latest)
-![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/whale-docsify-serve)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/whale-docsify-served)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/alertbox/docsify-served?sort=semver)
+![Docker Pulls](https://img.shields.io/docker/pulls/alertbox/docsify-served)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/docsify-served/latest)
+![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/docsify-served)
 
-This repository (`whale-docsify-serve`) is where we (`@alertbox`) develop the [Docker Images](https://hub.docker.com/r/alertbox/whale-docsify-serve) to `docsify serve` our repository documentation and static websites for public and internal use. This source code is available for everyone under the standard [MIT License](LICENSE).
+This repository (`whale-docsify-served`) is where we (`@alertbox`) develop the [Docker Images](https://hub.docker.com/r/alertbox/docsify-served) to `docsify serve` our repository documentation and static websites for public and internal use. This source code is available for everyone under the standard [MIT License](LICENSE).
 
 
 <p align="center">
-  <img alt="The whale docsify serve in action" src="https://user-images.githubusercontent.com/958227/83905226-f2d53b80-a77e-11ea-9aac-d26d6b4677e9.png" width="1024">
+  <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83905226-f2d53b80-a77e-11ea-9aac-d26d6b4677e9.png" width="1024">
 </p>
 
-> The whale docsify serve in action
+> The whale docsify served in action
 
-Whale Docsify Serve combines the simplicity of Docsify's magical documentation site generation what we need for the edit and preview cycle. The source code is updated monthly with features and fixes. You can use on Windows, macOS, and Linux on [Docker Hub](https://hub.docker.com/r/alertbox/whale-docsify-serve).
+Whale Docsify Served combines the simplicity of Docsify's magical documentation site generation what we need for the edit and preview cycle. The source code is updated monthly with features and fixes. You can use on Windows, macOS, and Linux on [Docker Hub](https://hub.docker.com/r/alertbox/docsify-served).
 
 ## Contributing
 
 There are many ways in which you can participate in the project, for example:
 
-- [Submit bugs and feature requests](https://github.com/alertbox/whale-docsify-serve/issues), and help us verify as they are checked in
-- Review [source code changes](https://github.com/alertbox/whale-docsify-serve/pulls)
+- [Submit bugs and feature requests](https://github.com/alertbox/whale-docsify-served/issues), and help us verify as they are checked in
+- Review [source code changes](https://github.com/alertbox/whale-docsify-served/pulls)
 - Review the [documentation](docs) and make pull requests for anything from typos to new content
 
 If you are interested in fixing issues and contributing directly to the source code, please see the document [How to Contribute](CONTRIBUTING.md), which covers the following:
@@ -43,7 +43,7 @@ If you are interested in fixing issues and contributing directly to the source c
 
 ## Related Projects
 
-Many of the core components and dependencies live in their own repositories on GitHub, for example, the [Docsify CLI](https://github.com/docsifyjs/docsify-cli) and [Docker Images for Node](https://github.com/nodejs/docker-node) have their own repositories. For a complete list, please have a look at the [Related Projects](docs/related-projects) page.
+Many of the core components and dependencies live in their own repositories on GitHub, for example, the [Docsify CLI](https://github.com/docsifyjs/docsify-cli) and [Docker Images for Node](https://github.com/nodejs/docker-node) have their own repositories. For a complete list, please have a look at the [Related Projects](CONTRIBUTING.md#related-projects) page.
 
 ## Code of Conduct
 
