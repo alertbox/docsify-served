@@ -67,6 +67,12 @@ docker run -dp 3000:3000 -v `pwd`/docs:/var/www localhost:3000/docsify-served
 
 To test the changes, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
 
+<p align="center">
+  <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
+</p>
+
+> Default template comes with `docsify init` in action.
+
 ### Pull Requests
 
 To enable us to quickly review and accept your pull request, always create one pull request per issue, link the issue in the pull request. Never merge multiple into one unless they all share the same root cause.
