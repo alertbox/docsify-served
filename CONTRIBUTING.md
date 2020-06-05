@@ -24,7 +24,7 @@ You'll need following tools:
 - NodeJS x64, preferably `>= 12.x`
 - VS Code
 - Docker Desktop
-  - Docker for VS Code
+- Docker Extension for VS Code
 
 ### Build and Run
 
