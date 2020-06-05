@@ -34,6 +34,11 @@ Step - 3: Then, run Docsify Served docker container
 #!/bin/bash
 cd hello-world && docker-compose up -d
 ```
+
+<p align="center">
+  <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
+</p>
+
 Visit [localhost:3000](https://localhost:3030) on your favorite browser.
 
 ## Requirements and Best Practices
