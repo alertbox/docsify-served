@@ -22,40 +22,37 @@ For additional questions and feedback, please visit the [Docsify Lobby](https://
 
 Here is how to get a single node Docsify Served cluster running on Docker containers:
 
-Step - 1: Visit [alertbox/whale-docsify-docs](https://github.com/alertbox/whale-docsify-docs/generate) on GitHub to use a template to start the Documentation setup.
-
-Step - 2: Next, spin up a Terminal and clone your GitHub Repository. For example:
+Step - 1: First, install Docker Desktop locally, then spin up a Terminal and clone your GitHub Repository. For example:
 
 ```bash
 #!/bin/bash
-git clone https://github.com/kosalanuwan/hello-world
+git clone https://github.com/<your-github-account>/hello-docsifyed
 ```
 
-Step - 3: Then, run Docsify Served docker container
+Step - 2: Then, run Docsify Served docker container
 
 ```bash
 #!/bin/bash
-cd hello-world && docker-compose up -d
+cd hello-docsifyed && docker-compose up -d
 ```
 
 <p align="center">
   <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
 </p>
 
-Visit [localhost:3000](https://localhost:3030) on your favorite browser.
+Visit [localhost:3000](https://localhost:3000) on your favorite browser.
 
 ## Requirements and Best Practices
 
 The Docsify Served containers on Docker Hub are based on Linux AMD64 Architecture.
 
-Docsify Served Requirements: For minimum container requirements, you can follow [alertbox/whale-docsify-docs/](https://github.com/alertbox/whale-docsify-docs/).
+Docsify Served Requirements: For minimum container requirements, you can use [alertbox/gh-minimalist/](https://github.com/alertbox/gh-minimalist/) template.
 
 ### Best Practices
 
-- Avoid manually creating documentation sites in GitHub
-- Avoid forking GitHub template for documentation
-- Avoid creating documentation on the repository root; except if the repo itself is the documentation.
-- Avoid installing the `docsify-cli` globally via NPM or YARN; use `npx docsify-cli init ./docs` if you must.
+- Avoid creating documentation on the repository root; except if the repo itself is the documentation
+- Avoid installing the `docsify-cli` globally via NPM or YARN; use `npx docsify-cli init ./docs` if you must
+- Avoid using port `:3000` for all GitHub Pages; use a different port for each repo
 
 ## Additional References
 
