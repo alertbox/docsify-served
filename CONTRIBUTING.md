@@ -21,7 +21,6 @@ In order to download necessary tools, clone the repo, and install dependencies v
 You'll need following tools:
 
 - Git
-- NodeJS x64, preferably `>= 12.x`
 - VS Code
 - Docker Desktop
 - Docker Extension for VS Code
