@@ -8,10 +8,26 @@ For additional questions and feedback, please visit the [Docsify Lobby](https://
 
 ## Related Projects
 
-Many of the core components and dependencies live in their own repositories on GitHub, for example, the [Docsify CLI](https://github.com/docsifyjs/docsify-cli) and [Docker Images for Node](https://github.com/nodejs/docker-node) have their own repositories. For a complete list, please have a look at the [Related Projects](CONTRIBUTING.md#related-projects) page.
+Many of the core components and dependencies live in their own repositories on GitHub, for example, the [Docsify CLI](https://github.com/docsifyjs/docsify-cli) and [Docker Images for Node](https://github.com/nodejs/docker-node) have their own repositories. Please have a look at below list:
+
+- [Docsify Served Project](https://github.com/alertbox/whale-docsify-served/)
+- [Docsify Served Docker Repository](https://hub.docker.com/r/alertbox/docsify-served)
+- [GitHub Minimalist Project](https://github.com/alertbox/gh-minimalist/)
+- [Alertbox](https://github.com/alertbox/)
+- [Docsify](https://github.com/docsifyjs/)
+- [Docker](https://github.com/docker/)
 
 ## Learning Resources
 
 - [Play with Docker](https://www.docker.com/play-with-docker)
 - [Create GitHub Pages with Docsify](https://www.youtube.com/watch?v=TV88lp7egMw)
 - [Creating additional pages and content using Docsify](https://docsify.js.org/#/more-pages)
+
+## Awesome Lists
+
+> [Awesome Lists](https://github.com/sindresorhus/awesome) are curated lists of awesome stuff. But, what is awesome?
+
+- [Awesome Docsify](https://github.com/docsifyjs/awesome-docsify/)
+- [Awesome Compose](https://github.com/docker/awesome-compose/)
+- [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+- [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
