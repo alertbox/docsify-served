@@ -1,5 +1,6 @@
 - [Getting Started](#welcome)
 - [Docker Images](https://hub.docker.com/r/alertbox/docsify-served/)
-- [Feedback](feedback.md)
+- [GitHub](https://github.com/alertbox/whale-docsify-served)
 - [Alertbox](https://github.com/alertbox/)
+- [Feedback](feedback.md)
 - [License](license.md)
