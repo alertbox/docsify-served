@@ -6,7 +6,13 @@
   <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83913776-9a596a80-a78d-11ea-83ea-b8d953996c21.png" width="786">
 </p>
 
+
 ## Features
+
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/alertbox/docsify-served?sort=semver)
+![Docker Pulls](https://img.shields.io/docker/pulls/alertbox/docsify-served)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/docsify-served/latest)
+![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/docsify-served)
 
 We (`@alertbox`) run `docsify-served` locally to keep build and preview most of our GitHub Pages before publishing its content.
 
