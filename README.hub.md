@@ -11,6 +11,7 @@
 - Where to file issues [alertbox/whale-docsify-served/issues/](https://github.com/alertbox/whale-docsify-served/issues/)
 
 ## What is Docsify Server?
+
 ![logo](https://raw.githubusercontent.com/docsifyjs/docsify-cli/master/media/icon.svg?sanitize=true)
 
 [Docsify](https://docsify.js.org/) is a magical documentation site generator especially awesome for [GitHub Pages](https://pages.github.com/), [Awesome Lists](https://github.com/topics/awesome) et al. [Docsify Server](http://docsifyjs.github.io/docsify-cli/) enables developers to preview easier and faster by leveraging the power of [NodeJS](https://nodejs.org/en/download/) with the flexibility of [READMEs](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
@@ -24,12 +25,14 @@ Here is how to get a single node Docsify Served cluster running on Docker contai
 Step - 1: Visit [alertbox/whale-docsify-docs](https://github.com/alertbox/whale-docsify-docs/generate) on GitHub to use a template to start the Documentation setup.
 
 Step - 2: Next, spin up a Terminal and clone your GitHub Repository. For example:
+
 ```bash
 #!/bin/bash
 git clone https://github.com/kosalanuwan/hello-world
 ```
 
 Step - 3: Then, run Docsify Served docker container
+
 ```bash
 #!/bin/bash
 cd hello-world && docker-compose up -d

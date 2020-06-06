@@ -98,6 +98,6 @@ Each newly created `Dockerfile` must have it's own `bash` script with supported 
 
 In order to keep the conversations clear and transparent, please limit discussion to English and keep things on topic with the issue. Be considerate to others and try to be courteous and professional at all times.
 
-## Thank You
+### Thank You
 
 You contributions to OSS projects, large or small, make great projects like possible. Thank you for taking time to contribute.
