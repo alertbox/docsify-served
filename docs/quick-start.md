@@ -1,6 +1,6 @@
 # Quick Start
 
-For minimum container requirements, you can use [alertbox/gh-minimalist/](https://github.com/alertbox/gh-minimalist/) GitHub template.
+> For minimum container requirements, you can use [alertbox/gh-minimalist/](https://github.com/alertbox/gh-minimalist/) GitHub template.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ cd hello-docsifyed && docker-compose up -d
 ```
 
 <p align="center">
-  <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="768">
+  <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="786">
 </p>
 
 Spin up your favorite browser, visit [localhost:3000](https://localhost:3000).
