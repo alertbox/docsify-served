@@ -6,8 +6,8 @@
 
 ## Quick Reference
 
-- Maintained by [the Alertbox Docker Team](https://github.com/alertbox/whale-docsify-served/)
-- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://github.com/alertbox/whale-docsify-served/issues/), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
+- Maintained by [the Alertbox Docker Team](https://alertbox.github.io/whale-docsify-served/)
+- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://alertbox.github.io/whale-docsify-served/#/?id=welcome), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
 - Where to file issues [alertbox/whale-docsify-served/issues/](https://github.com/alertbox/whale-docsify-served/issues/)
 
 ## What is Docsify Server?
@@ -56,6 +56,7 @@ Docsify Served Requirements: For minimum container requirements, you can use [al
 
 ## Additional References
 
+- [Official documentation](https://alertbox.github.io/whale-docsify-served/)
 - [Play with Docker](https://www.docker.com/play-with-docker)
 - [Create GitHub Pages with Docsify](https://www.youtube.com/watch?v=TV88lp7egMw)
 - [Creating additional pages and content using Docsify](https://docsify.js.org/#/more-pages)
