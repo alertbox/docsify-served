@@ -1,13 +1,13 @@
 # Contributing
 
-Welcome! And thank you for your interest in contributing to our project. We use our wonderful [Contributor Covenant](http://contributor-covenant.org/) for our [Code of Conduct](). Please [read it](CODE_OF_CONDUCT.md) before you join our project.
+Welcome! And thank you for your interest in contributing to our project. We use our wonderful [Contributor Covenant](http://contributor-covenant.org/) for our [Code of Conduct](CODE_OF_CONDUCT.md). Please that before you join our project.
 
 There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved.
 
 - Ask a question on [Stack Overflow]()
-- [Submit bugs and feature requests](https://github.com/alertbox/whale-docsify-served/issues), and help us verify as they are checked in
+- [Submit bugs and feature requests](https://github.com/alertbox/docsify-served/issues), and help us verify as they are checked in
 - Upvote [popular feature requests]()
-- Review [source code changes](https://github.com/alertbox/whale-docsify-served/pulls)
+- Review [source code changes](https://github.com/alertbox/docsify-served/pulls)
 - Review the [documentation](docs) and make pull requests for anything from typos to new content
 
 ## Contributing to Source Code
@@ -16,7 +16,7 @@ If you are interested in writing code to fix issues, here's a high-level overvie
 
 ### Prerequisites
 
-In order to download necessary tools, clone the repo, and install dependencies via `npm`, you need internet access.
+In order to download necessary tools, clone the repo, and install dependencies, you need internet access.
 
 You'll need following tools:
 
@@ -27,7 +27,7 @@ You'll need following tools:
 
 ### Build and Run
 
-If you want to understand how Whale Docsify Served works, or debug an issue, you'll want to get the source, build it, and run it locally.
+If you want to understand how the tool works, or debug an issue, you'll want to get the source, build it, and run it locally.
 
 #### Step 1 Getting the source code
 
@@ -35,16 +35,16 @@ First fork the repository so that you can make a Pull Request. Then clone your f
 
 ```bash
 #!/bin/bash
-git clone https://github.com/<your-github-account>/whale-docsify-served
+git clone https://github.com/<your-github-account>/docsify-served
 ```
 
 Occasionally you would want to merge changes the upstream repository (the official code repo) with your fork.
 
 ```bash
 #!/bin/bash
-cd whale-docsify-served
+cd docsify-served
 git checkout master
-git pull https://github.com/alertbox/whale-docsify-served master
+git pull https://github.com/alertbox/docsify-served master
 ```
 
 #### Step 2 Build and run from the source
@@ -53,15 +53,21 @@ First, you want to ensure Docker Desktop is running on your machine. Then build 
 
 ```bash
 #!/bin/bash
-cd whale-docsify-served
+cd docsify-served
 docker build --rm=true -f ./lts-alpine/Dockerfile -t localhost:3000/docsify-served .
+
+# Or
+docker-compose build
 ```
 
-To spawn the image you built with changes, you use the `docs` folder, which is in our source code.
+To spawn the image you built with changes, you use the `docs/` folder, which is in our source code.
 
 ```bash
 #!/bin/bash
 docker run -dp 3000:3000 -v `pwd`/docs:/var/www localhost:3000/docsify-served
+
+# Or
+docker-compose up -d
 ```
 
 To test the changes, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
@@ -70,7 +76,7 @@ To test the changes, you launch your favorite browser and visit [https://localho
   <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
 </p>
 
-> Default template comes with `docsify init` in action.
+> Default template comes with `docsify init docs/` in action.
 
 ### Pull Requests
 
