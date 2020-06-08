@@ -6,60 +6,44 @@
 
 ## Quick Reference
 
-- Maintained by [the Alertbox Docker Team](https://alertbox.github.io/whale-docsify-served/)
-- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://alertbox.github.io/whale-docsify-served/#/?id=welcome), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
-- Where to file issues [alertbox/whale-docsify-served/issues/](https://github.com/alertbox/whale-docsify-served/issues/)
+- Maintained by [the Alertbox Docker Team](https://alertbox.github.io/docsify-served/)
+- Where to get help [the Docsify Community](https://discord.gg/3NwKFyR/), [the Alertbox Inc.](https://alertbox.github.io/docsify-served/#/?id=welcome), or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify)
+- Where to file issues [alertbox/docsify-served/issues/](https://github.com/alertbox/docsify-served/issues/)
 
-## What is Docsify Server?
+## What is Docsify?
 
-![docsify logo](https://docsify.js.org/_media/icon.svg?sanitize=true)
-
-[Docsify](https://docsify.js.org/) is a magical documentation site generator especially awesome for [GitHub Pages](https://pages.github.com/), [Awesome Lists](https://github.com/topics/awesome) et al. [Docsify Server](http://docsifyjs.github.io/docsify-cli/) enables developers to preview easier and faster by leveraging the power of [NodeJS](https://nodejs.org/en/download/) with the flexibility of [READMEs](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
-
-For additional questions and feedback, please visit the [Docsify Lobby](https://discord.gg/3NwKFyR/) or [Stack Overflow](https://stackoverflow.com/questions/tagged/docsify).
+For a background on the project, please read [this overview](https://alertbox.github.io/docsify-served/#/references).
 
 ## Quick Start with Docker
 
-Here is how to get a single node Docsify Served cluster running on Docker containers:
-
-Step - 1: First, install Docker Desktop locally, then spin up a Terminal and clone your GitHub Repository. For example:
+Check out the installation instructions and how to get started. In summary, here's the command:
 
 ```bash
 #!/bin/bash
-git clone https://github.com/<your-github-account>/hello-docsifyed
-```
-
-Step - 2: Then, run Docsify Served docker container
-
-```bash
-#!/bin/bash
-cd hello-docsifyed && docker-compose up -d
+git clone https://github.com/alertbox/gh-minimalist
+cd gh-minimalist
+docker-compose up -d
 ```
 
 <p align="center">
   <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
 </p>
 
-Visit [localhost:3000](https://localhost:3000) on your favorite browser.
+Visit [localhost:3083](https://localhost:3083) on your favorite browser.
 
 ## Requirements and Best Practices
 
 The Docsify Served containers on Docker Hub are based on Linux AMD64 Architecture.
 
-Docsify Served Requirements: For minimum container requirements, you can use [alertbox/gh-minimalist/](https://github.com/alertbox/gh-minimalist/) template.
+Docsify Served Requirements: For minimum container requirements, you can use [alertbox/gh-minimalist/](https://github.com/alertbox/gh-minimalist/generate/) template.
 
 ### Best Practices
 
-- Avoid creating documentation on the repository root; except if the repo itself is the documentation
-- Avoid installing the `docsify-cli` globally via NPM or YARN; use `npx docsify-cli init ./docs` if you must
-- Avoid using port `:3000` for all GitHub Pages; use a different port for each repo
+For a complete list of best practices, read [these points](https://alertbox.github.io/docsify-served/#/best-practices).
 
 ## Additional References
 
-- [Official documentation](https://alertbox.github.io/whale-docsify-served/)
-- [Play with Docker](https://www.docker.com/play-with-docker)
-- [Create GitHub Pages with Docsify](https://www.youtube.com/watch?v=TV88lp7egMw)
-- [Creating additional pages and content using Docsify](https://docsify.js.org/#/more-pages)
+Official documentation has a list of [learning resources](https://alertbox.github.io/docsify-served/#/references?id=learning-resources) and [related projects](https://alertbox.github.io/docsify-served/#/references?id=related-projects). Read that to learn more about Docsify and Docker.
 
 ## License
 
