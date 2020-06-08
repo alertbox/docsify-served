@@ -1,21 +1,43 @@
 # Docsify Served
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/whale-docsify-served)
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/docsify-served)
 ![Docker Image Version (latest semver)](https://img.shields.io/docker/v/alertbox/docsify-served?sort=semver)
 ![Docker Pulls](https://img.shields.io/docker/pulls/alertbox/docsify-served)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/docsify-served/latest)
 ![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/docsify-served)
 
-This repository (`docsify-served`) is where we (`@alertbox`) develop the [Docker Images](https://hub.docker.com/r/alertbox/docsify-served) to `docsify serve` our repository documentation and static websites for public and internal use. This source code is available for everyone under the standard [MIT License](LICENSE).
+This repository (`docsify-served`) is where we ([@alertbox](https://github.com/alertbox/)) develop the [Docker Images](https://hub.docker.com/r/alertbox/docsify-served) to `docsify serve` our GitHub Pages and static websites for public and internal use.
 
 <p align="center">
   <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83913776-9a596a80-a78d-11ea-83ea-b8d953996c21.png" width="1024">
 </p>
 
-> The docsify served in action
+> :whale: The docsify server running on docker is called **Docsify Served!**
 
-Docsify Served combines the simplicity of Docsify's magical documentation site generation what we need for the edit and preview cycle. The source code is updated monthly with features and fixes. You can use on Windows, macOS, and Linux on [Docker Hub](https://hub.docker.com/r/alertbox/docsify-served).
+## Contents
+
+- [Requirements](#requirements)
+- [Using the Docker Image](#using-the-docker-image)
+- [Contributing](#contributing)
+- [Feedback](#feedback)
+- [Related Projects](#related-projects)
+- [Backers](#backers)
+- [License](#license)
+
+## Requirements
+
+The source code is updated monthly with features and fixes. You can use the docker images with:
+
+- Windows
+- macOS, and
+- Linux
+
+There are [binary distributions available on Docker Hub](https://hub.docker.com/r/alertbox/docsify-served) and you can also build it from the source code for experiments as well.
+
+## Using the Docker Image
+
+Check out the [quick start guide](https://alertbox.github.io/docsify-served/#/quick-start) to get started.
 
 ## Contributing
 
@@ -29,7 +51,7 @@ If you are interested in fixing issues and contributing directly to the source c
 
 - [Prerequisites](CONTRIBUTING.md#prerequisites)
 - [How to build and run from source](CONTRIBUTING.md#build-and-run)
-- [Finding an issue to work on](https://github.com/alertbox/whale-docsify-served/issues)
+- [Finding an issue to work on](https://github.com/alertbox/docsify-served/issues)
 - [Contributing to platforms](CONTRIBUTING.md#publishing)
 
 ## Feedback
@@ -42,7 +64,7 @@ If you are interested in fixing issues and contributing directly to the source c
 
 ## Related Projects
 
-Many of the core components and dependencies live in their own repositories on GitHub, for example, the [Docsify CLI](https://github.com/docsifyjs/docsify-cli) and [Docker Images for Node](https://github.com/nodejs/docker-node) have their own repositories. For a complete list, please have a look at the [Related Projects]() page.
+Many of the core components and dependencies live in their own repositories on GitHub, for example, the [Docsify CLI](https://github.com/docsifyjs/docsify-cli) and [Docker Images for Node](https://github.com/nodejs/docker-node) have their own repositories. For a complete list, please have a look at the [Related Projects](https://alertbox.github.io/docsify-served/#/references) page.
 
 ## Code of Conduct
 
