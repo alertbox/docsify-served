@@ -1,6 +1,6 @@
 # Contributing
 
-Welcome! And thank you for your interest in contributing to our project. We use our wonderful [Contributor Covenant](http://contributor-covenant.org/) for our [Code of Conduct](CODE_OF_CONDUCT.md). Please that before you join our project.
+Welcome! And thank you for your interest in contributing to our project. We use our wonderful [Contributor Covenant](http://contributor-covenant.org/) for our [Code of Conduct](CODE_OF_CONDUCT.md). Please read that before you join our project.
 
 There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved.
 
@@ -106,4 +106,4 @@ In order to keep the conversations clear and transparent, please limit discussio
 
 ### Thank You
 
-You contributions to OSS projects, large or small, make great projects like possible. Thank you for taking time to contribute.
+Your contributions to OSS projects, large or small, make great projects like possible. Thank you for taking time to contribute.
