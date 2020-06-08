@@ -11,3 +11,7 @@
 
 [Getting Started](#welcome)
 [Docker Images](https://hub.docker.com/r/alertbox/docsify-served)
+
+<!-- background color -->
+
+![color](#f0f0f0)
