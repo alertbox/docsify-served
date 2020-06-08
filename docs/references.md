@@ -1,6 +1,5 @@
 # What is Docsify?
-
-![logo](https://raw.githubusercontent.com/docsifyjs/docsify-cli/master/media/icon.svg?sanitize=true)
+![logo](https://docsify.js.org/_media/icon.svg?sanitize=true ':size=95%')
 
 [Docsify](https://docsify.js.org/) is a magical documentation site generator especially awesome for [GitHub Pages](https://pages.github.com/), [Awesome Lists](https://github.com/topics/awesome) et al. [Docsify Server](http://docsifyjs.github.io/docsify-cli/) enables developers to preview easier and faster by leveraging the power of [NodeJS](https://nodejs.org/en/download/) with the flexibility of [READMEs](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes).
 
