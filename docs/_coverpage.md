@@ -4,9 +4,9 @@
 
 # Docsify Served
 
-> Just build-and-preview GitHub Pages privately.
+> Just write-and-preview GitHub Pages privately.
 
-- Maintained by [the Alertbox Docker Team](https://github.com/alertbox/whale-docsify-served/)
+- Maintained by [the Alertbox Docker Team](https://github.com/alertbox/docsify-served/)
 - Powered by [Docsify](https://docsify.js.org/) and [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 [Getting Started](#welcome)
