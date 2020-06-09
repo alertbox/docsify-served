@@ -29,7 +29,7 @@ You'll need following tools:
 
 If you want to understand how the tool works, or debug an issue, you'll want to get the source, build it, and run it locally.
 
-#### Step 1 Getting the source code
+#### Getting the source code
 
 First fork the repository so that you can make a Pull Request. Then clone your fork locally:
 
@@ -47,7 +47,7 @@ git checkout master
 git pull https://github.com/alertbox/docsify-served master
 ```
 
-#### Step 2 Build and run from the source
+#### Build and run from the source
 
 First, you want to ensure Docker Desktop is running on your machine. Then build the Dockerfile locally.
 
