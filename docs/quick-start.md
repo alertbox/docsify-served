@@ -52,5 +52,3 @@ That's it. Your site is now Docker-enabled, and is ready to serve you write-and-
 </p>
 
 Check out [references](references.md) for all you need to know about Docsify and the extension related guides.
-
-> Was this guide helpful? Let us know by sending a message to [@alertboxinc](https://twitter.com/alertboxinc).
