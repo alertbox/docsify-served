@@ -16,7 +16,7 @@ For a background on the project, please read [this overview](https://alertbox.gi
 
 ## Quick Start with Docker
 
-Check out the installation instructions and how to get started. In summary, here's the command:
+Check out the [how to get started](https://alertbox.github.io/docsify-served/#/quick-start) and [configure](https://alertbox.github.io/docsify-served/#/configure), in summary, here's the command:
 
 ```bash
 #!/bin/bash
