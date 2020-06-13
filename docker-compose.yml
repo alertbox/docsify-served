@@ -2,7 +2,7 @@ version: "3.8"
 
 services: 
 
-  whale-docsify-serve:
+  docsify-served:
     image: loclhost:3000/docsify-served
     build:
       context: .

@@ -1,10 +1,10 @@
 # Contributing
 
-Welcome! And thank you for your interest in contributing to our project. We use our wonderful [Contributor Covenant](http://contributor-covenant.org/) for our [Code of Conduct](CODE_OF_CONDUCT.md). Please read that before you join our project.
+> We use our wonderful [Contributor Covenant](http://contributor-covenant.org/) for our [Contributor Code of Conduct](CODE_OF_CONDUCT.md). This same template is used by [over 350,000 open source projects](https://github.com/search?l=Markdown&q=%22Contributor+Covenant%22+fork%3Afalse&type=Code). Please read that before you join our project.
 
-There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved.
+Welcome! And thank you for your interest in contributing to the template. There are many ways in which you can contribute, beyond writing code. Here's a high-level overview of how you can get involved:
 
-- Ask a question on [Stack Overflow]()
+- Ask questions and problems on [Stack Overflow]()
 - [Submit bugs and feature requests](https://github.com/alertbox/docsify-served/issues), and help us verify as they are checked in
 - Upvote [popular feature requests]()
 - Review [source code changes](https://github.com/alertbox/docsify-served/pulls)
@@ -31,7 +31,7 @@ If you want to understand how the tool works, or debug an issue, you'll want to 
 
 #### Getting the source code
 
-First fork the repository so that you can make a Pull Request. Then clone your fork locally:
+First, fork the repository so that you can make a [Pull Request (PR)](#pull-requests). Then clone your fork locally:
 
 ```bash
 #!/bin/bash
@@ -71,12 +71,6 @@ docker-compose up -d
 ```
 
 To test the changes, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
-
-<p align="center">
-  <img alt="The docsify served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
-</p>
-
-> Default template comes with `docsify init docs/` in action.
 
 ### Pull Requests
 

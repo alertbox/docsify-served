@@ -2,12 +2,8 @@
 
   - [Quick Start](quick-start.md)
   - [Best Practices](best-practices.md)
-  - [Troubleshooting](troubleshooting.md)
 
-- [Configure](configure.md)
+- Related
 
-- [Feedback](feedback.md)
-
-- [References](references.md)
-
-- [License](license.md)
+  - [GitHub Quickstart](https://alertbox.github.io/gh-quickstart)
+  - [Docsify CLI](https://docsifyjs.github.io/docsify-cli)
