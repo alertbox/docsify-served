@@ -25,7 +25,7 @@ docker run -dp 3083:3000 -v `pwd`/docs:/var/www alertbox/docsify-served
 ```
 
 <p align="center">
-  <img alt="The alertbox/docsify-served in action" src="https://user-images.githubusercontent.com/958227/83914273-911ccd80-a78e-11ea-8958-90f5164782fd.png" width="1024">
+  <img alt="The alertbox/docsify-served in action" src="https://user-images.githubusercontent.com/958227/83913776-9a596a80-a78d-11ea-83ea-b8d953996c21.png" width="1024">
 </p>
 
 Visit [localhost:3083](https://localhost:3083) on your favorite browser.
