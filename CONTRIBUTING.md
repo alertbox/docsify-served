@@ -57,7 +57,7 @@ cd docsify-served
 
 ./run.sh -h localhost:3000 -e 3000 -m `pwd`/docs -v 4.4.1
 # Or
-./run.sh -h localhost:3001 -e 3000 -m `pwd`/docs -v latest
+./run.sh -h localhost:3000 -e 3000 -m `pwd`/docs -v latest
 ```
 
 Then, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
