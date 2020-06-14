@@ -21,7 +21,7 @@ Check out the [how to get started](https://alertbox.github.io/docsify-served/#/q
 ```bash
 #!/bin/bash
 cd my-docsify-enabled-project
-docker run -dp 3083:3000 -v `pwd`/docs:/var/www alertbox/docsify-served
+docker run -dp 3083:3000 -v `pwd`/docs:/var/www alertbox/docsify-served:4.4.1
 ```
 
 <p align="center">

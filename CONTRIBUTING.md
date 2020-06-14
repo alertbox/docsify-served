@@ -49,28 +49,18 @@ git pull https://github.com/alertbox/docsify-served master
 
 #### Build and run from the source
 
-First, you want to ensure Docker Desktop is running on your machine. Then build the Dockerfile locally.
+First, you want to ensure Docker Desktop is running on your machine. Then build and run the Dockerfile locally.
 
 ```bash
 #!/bin/bash
 cd docsify-served
-docker build --rm=true -f ./lts-alpine/Dockerfile -t localhost:3000/docsify-served .
 
+./run.sh -h localhost:3000 -e 3000 -m `pwd`/docs -v 4.4.1
 # Or
-docker-compose build
+./run.sh -h localhost:3001 -e 3000 -m `pwd`/docs -v latest
 ```
 
-To spawn the image you built with changes, you use the `docs/` folder, which is in our source code.
-
-```bash
-#!/bin/bash
-docker run -dp 3000:3000 -v `pwd`/docs:/var/www localhost:3000/docsify-served
-
-# Or
-docker-compose up -d
-```
-
-To test the changes, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
+Then, you launch your favorite browser and visit [https://localhost:3000](https://localhost:3000).
 
 ### Pull Requests
 
@@ -84,15 +74,30 @@ To avoid multiple pull requests resolving the same issue, let others know you ar
 
 At present, the Docker Images are only supported following platforms: `Linux AMD64` Architecture.
 
-These `tags` are available: `latest | preview | lts-alpine | docsify-cli-latest`
+These `Dockerfile` are available: `latest | stable`
 
-The `tag-and-push.sh` script for each `Dockerfile` contains followings:
+The `release.sh` script for each `Dockerfile` contains followings:
 
-- Supported `platforms` and `docsify-cli` versions
-- Tag the `localhost:3000/docsify-served`
-- Push to `alertbox/docsify-served` repository on Docker Hub.
+- `Expose Port` for images
+- Tag images with supported `docsify-cli` versions
+- Build images locally
+- Push tagged images to Docker Hub
 
-Each newly created `Dockerfile` must have it's own `bash` script with supported `tags`.
+First, you want to ensure Docker Desktop is running on your machine and the scripts are executable. See [troubleshooting](#troubleshooting). Next, bump up of the `Dockerfile` version if required, then build and release the Dockerfile locally.
+
+```bash
+#!/bin/bash
+cd docsify-served
+
+./release.sh -h localhost:3000 -e 3000 -t "4.4.1"
+# Or
+./release.sh -h localhost:3000 -e 3000 -t "latest 4.4.1"
+```
+
+#### Troubleshooting
+
+- Bash scripts getting terminated `Permission denied`
+  > Make it executable with `chmod a+x ./build.sh ./run.sh ./release.sh`
 
 ### Discussion Etiquette
 

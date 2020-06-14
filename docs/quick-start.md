@@ -26,7 +26,7 @@ version: "3.8"
 
 services: 
   docsify-served:
-    image: alertbox/docsify-served
+    image: alertbox/docsify-served:4.4.1
     ports: 
       # runs on localhost:3020
       - 3083:3000/tcp
@@ -45,7 +45,7 @@ Once you have your `docker-compose.yml` file ready, you will want to take it out
 docker-compose up -d
 
 # Or
-docker run -dp 3083:3000 -v `pwd`/docs:/var/www alertbox/docsify-served
+docker run -dp 3083:3000 -v `pwd`/docs:/var/www alertbox/docsify-served:4.4.1
 ```
 
 That's it. Your site is now Docsify Served, and is ready for write-and-preview your content. Spin up your favorite browser, visit [localhost:3083](http://localhost:3083). For example, here's our [GitHub Quickstart](https://alertbox.github.com/gh-quickstart) running on Docsify Served locally:
