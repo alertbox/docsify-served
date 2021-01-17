@@ -1,4 +1,4 @@
-# Docsify Served
+# Docsify Served - Archived
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/alertbox/docsify-served)
@@ -6,6 +6,9 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/alertbox/docsify-served)
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/docsify-served/latest)
 ![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/docsify-served)
+
+> ### Important!
+> This project has been archived since we switched  to development containers. It's much more simpler to use and maintain. Have a look at [@alertbox/vscode-remote-try-docsify](https://alertbox.github.io/vscode-remote-try-docsify) to learn more.
 
 The docsify server running on docker is called **Docsify Served!** Find out more at [https://docsify.js.io/cli](https://docsifyjs.github.io/docsify-cli).
 
