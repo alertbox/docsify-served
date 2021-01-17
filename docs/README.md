@@ -16,7 +16,7 @@
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/docsify-served/latest)
 ![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/docsify-served)
 
-For new projects, we have enabled [GitHub Quickstart](https://github.com/alertbox/gh-minimalist/generate/) as a GitHub Template repository. But, for the old projects that are already having Docsify or you initialized using `docsify-cli`, luckily [the binary distributions available](https://hub.docker.com/r/alertbox/docsify-served) on Docker Hub.
+For new projects, we have enabled [Quickstart](https://github.com/alertbox/vscode-remote-try-docsify/generate/) as a Development Container repository. But, for the old projects that are already having Docsify or you initialized using `docsify-cli`, luckily [the binary distributions of the docker image is still available](https://hub.docker.com/r/alertbox/docsify-served) on Docker Hub.
 
 - Built with `node:lts-alpine` and `docsify-cli` latest
 - No need to install NodeJS and Docsify locally
