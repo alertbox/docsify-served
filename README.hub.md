@@ -4,6 +4,9 @@
 ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/alertbox/docsify-served/latest)
 ![MicroBadger Layers](https://img.shields.io/microbadger/layers/alertbox/docsify-served)
 
+> ### IMPORTANT!
+> This project has been archived since we switched to development containers. It's much simpler to use and maintain. Have a look at [@alertbox/vscode-remote-try-docsify](https://alertbox.github.io/vscode-remote-try-docsify) to learn more.
+
 ## Quick Reference
 
 - Maintained by [the Alertbox Docker Team](https://alertbox.github.io/docsify-served/)
@@ -12,7 +15,7 @@
 
 ## What is Docsify CLI?
 
-For a background on the project, please read [this overview](https://docsifyjs.github.io/docsify-cli/).
+For background on the project, please read [this overview](https://docsifyjs.github.io/docsify-cli/).
 
 ## Quick Start with Docker
 
@@ -44,4 +47,4 @@ For a complete list of best practices, read [these points](https://alertbox.gith
 
 This edition is free for unrestricted use for community users. By default, the `preview` or `latest` tags point to the latest Image with the latest [Docsify CLI](https://docsifyjs.github.io/docsify-cli/). At the moment, there aren't any other versions of any combinations.
 
-As with all Docker images, these like also contain other software that may be under other licenses.
+As with all Docker images, these also contain other software that may be under other licenses.

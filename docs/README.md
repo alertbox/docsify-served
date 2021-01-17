@@ -1,5 +1,8 @@
 ## Welcome
 
+> ### Important!
+> Docsify Served has been archived since we switched  to development containers. It's much more simpler to use and maintain. Have a look at [@alertbox/vscode-remote-try-docsify](https://alertbox.github.io/vscode-remote-try-docsify) to learn more.
+
 > The docsify server running on docker is called **Docsify Served!** Find out more at [https://docsify.js.io/cli](https://docsifyjs.github.io/docsify-cli).
 
 <p align="center">

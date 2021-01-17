@@ -1,5 +1,8 @@
 # Quick Start
 
+> ### Important!
+> The fastest way to get started is to switch to development containers. It's much more simpler to use and maintain. Have a look at [@alertbox/vscode-remote-try-docsify](https://alertbox.github.io/vscode-remote-try-docsify) to learn more.
+
 [Docsify Served](https://hub.docker.com/r/alertbox/docsify-served) runs `docsify serve` for your Docsify-enabled site, letting you write all sorts of Markdown in GitHub platform faster, smarter, and to a bigger scale. You can also adopt Dosify Served incrementally and remove it at anytime, so you can try it out on any Docsify-enabled site and see how you like it. You should only ever have to do a minimal amount of work to describe your Markdown.
 
 ## Requirements
